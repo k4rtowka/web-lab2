@@ -1,6 +1,6 @@
 
 
-var canv = document.getElementById("graph"),
+let canv = document.getElementById("graph"),
     ctx = canv.getContext("2d");
 
 canv.width = 300;

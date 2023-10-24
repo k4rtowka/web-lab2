@@ -65,23 +65,25 @@ public class AreaCheckServlet extends HttpServlet {
     private boolean inFirstQuarter(double x, double y, double r){
         return ((x >= 0) &&
                 (y >= 0) &&
-                (y <= r) &&
-                (x <= r / 2) &&
-                (x / 2 + y <= r));
+                (x * x + y * y <= r * r));
     }
 
     private boolean inSecondQuarter(double x, double y, double r){
         return ((x <= 0) &&
                 (y >= 0) &&
                 (y <= r) &&
-                (x >= -r));
+                (x >= -(r / 2)) &&
+                (x + r >= y));
     }
 
     private boolean inThirdQuarter(double x, double y, double r){
         return ((x <= 0) &&
                 (y <= 0) &&
-                (x * x + y * y <= r * r));
+                (y >= -r) &&
+                (x >= -r));
     }
+
+
 
     // Результат для 1 точки выбранной на графике
 

@@ -105,7 +105,7 @@
                               R:
                               <label>
                                     1
-                                    <input class="r-checkbox" type="checkbox" name="R" value="1" />
+                                    <input class="r-checkbox" type="checkbox" name="R" value="1" checked/>
                               </label>
                               <label>
                                     1.5

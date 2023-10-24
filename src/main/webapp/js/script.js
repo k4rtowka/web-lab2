@@ -23,6 +23,12 @@ function sendRequest(x,y,r){
             'y': y,
             'r': r
         },
+        success: function () {
+            window.location.href = 'jsp/result.jsp';
+        },
+        error: function () {
+            window.location.href = 'jsp/error404.jsp';
+        }
     });
 }
 

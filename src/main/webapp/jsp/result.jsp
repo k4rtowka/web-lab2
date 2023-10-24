@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
@@ -8,7 +7,7 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/header.css" />
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/table.css" />
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/result.css">
-    <title>Aim target</title>
+    <title>Result</title>
 </head>
 
 <body>

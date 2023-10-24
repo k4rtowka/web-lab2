@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
 <html lang="ru">
@@ -39,13 +38,10 @@
 </header>
 
 <section class="main">
-    <div class="container">
-        <canvas id="graph"></canvas>
-    </div>
 
     <div class="special-button">
         <a href="<%= request.getContextPath() %>/index.jsp">
-            <button id="submit-button" type="submit">Страница с формой</button>
+            <button id="submit-button">Страница с формой</button>
         </a>
     </div>
 
@@ -56,6 +52,5 @@
 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>

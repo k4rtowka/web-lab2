@@ -1,5 +1,4 @@
 let X, Y, R;
-const graphSize = 300;
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("submit-button").addEventListener("click", submit);

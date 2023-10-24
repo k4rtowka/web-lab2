@@ -3,7 +3,6 @@ import models.Records;
 import models.Entry;
 import models.Utils;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,7 +17,7 @@ public class AreaCheckServlet extends HttpServlet {
     // Переопределение doGet и doPost запросов
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws  IOException {
         double x = 0;
         double y = 0;
         double r = 0;
@@ -53,7 +52,7 @@ public class AreaCheckServlet extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws  IOException {
         doPost(request, response);
     }
 

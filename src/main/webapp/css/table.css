@@ -1,0 +1,38 @@
+
+.main-table{
+    padding: 20px;
+    padding-bottom: 10px;
+    display: table;
+    text-align: center;
+    margin: 30px auto auto;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    box-shadow: 0 0 10px 1px black;
+}
+
+#coordinates-form label > input{
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+#submit-button{
+    margin-top: 5px;
+    font-family: 'Overpass Mono', monospace;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: all 1s;
+}
+
+#submit-button:hover{
+    font-size: 15px;
+    box-shadow: 0 0 7px 4px rgb(18, 215, 18);
+    border: 1px solid rgb(18, 215, 18);
+    background-color: rgb(18, 215, 18);
+}
+
+.field{
+    margin-right: 30px;
+}
+
